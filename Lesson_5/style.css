@@ -1,0 +1,139 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+width: 1140px;
+margin: 0 auto;
+}
+
+.menu_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text_p {
+font-size: 16px;
+line-height: 26px;
+color: #1F3F68;
+}
+
+.text_p1 {
+    width: 425px;
+}
+
+.text_h1 {
+font-size: 64px;
+color: #1F3F68;
+width: 510px;
+}
+
+.text_h2 {
+    font-weight: 500;
+font-size: 44px;
+text-align: center;
+}
+
+.text_h3 {
+ font-size: 36px;
+ text-align: center;
+}
+
+.text_h3_footer {
+    width: 340px;
+}
+
+.text_h4 {
+ font-size: 20px;
+ line-height: 30px;
+ color: #1F3F68;
+}
+
+.text_input {
+border: 1px solid #356EAD;
+ box-sizing: border-box;
+ border-radius: 10px;
+ opacity: 0.4;
+}
+
+.button {
+     background: #5A98D0;
+ box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+ border-radius: 10px;
+ font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+.center_catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text_h4_product, .text_p_product {
+    width: 359px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color:rgba(16, 112, 177, 0.2)
+}
+
+.map_full {
+position: relative;
+    width: -webkit-fill-available;
+    height: 400px;
+}
+
+.bottom_contact_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content_full {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left_content {
+        display: flex;
+        flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(16, 112, 177, 0.2);
+    padding: 20px;
+}
+
+.right_content {
+        display: flex;
+        flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(16, 112, 177, 0.2);
+    padding: 20px;
+}
+
+.footer {
+    padding-top: 25px;
+}
