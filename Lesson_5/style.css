@@ -15,7 +15,7 @@ margin: 0 auto;
 .menu_ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li {
@@ -87,7 +87,7 @@ text-transform: uppercase;
 .center_catalog {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .text_h4_product, .text_p_product {
