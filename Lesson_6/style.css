@@ -8,10 +8,10 @@ body {
 }
 
 .container {
-    width: 1140px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    width: 1140px;
+    margin: 0 auto;
     height: 100%;
 }
 
@@ -20,10 +20,16 @@ body {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .menu {
-    padding-top: 42px;
-    padding-left: 113px;
-    padding-right: 113px;
+    margin-top: 42px;
+    margin-left: 113px;
+    margin-right: 113px;
 }
 
 .menu_ul {
@@ -45,8 +51,8 @@ li {
     background-image: url(img/top_back.png);
     background-repeat: no-repeat;
     background-position: right center;
-    padding-top: 115px;
     flex-grow: 1;
+    height: 100%;
 }
 
 .top_info_h1 {
@@ -54,16 +60,11 @@ li {
     color: #1F3F68;
     width: 510px;
     font-weight: 300;
-    font-size: 64px;
     line-height: 74px;
     letter-spacing: 0.04em;
-    padding-bottom: 32px;
-    padding-left: 113px;
-}
-
-.top_info_p1 {
-    width: 425px;
-    padding-left: 114px;
+    margin-bottom: 32px;
+    margin-left: 113px;
+    margin-top: 115px;
 }
 
 .text_p {
@@ -74,27 +75,30 @@ li {
     opacity: 0.6;
 }
 
+.top_info_p1 {
+    width: 425px;
+    margin-left: 114px;
+}
+
 .top_info_link {
+    display: inline-block;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #5A98D0;
+    text-decoration: none;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     margin-left: 114px;
     margin-top: 71px;
     padding: 15px 50px;
-    text-decoration: none;
-    display: inline-block;
 }
 
 a.top_info_link:hover {
     color: red;
 }
-
-
 
 .text_h3 {
     font-size: 36px;
@@ -195,7 +199,7 @@ a.top_info_link:hover {
 }
 
 
- /* Страница "Контакты" */
+/* Страница "Контакты" */
 
 .logo {
     display: flex;
