@@ -130,6 +130,7 @@ a.top_info_link:hover {
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     padding: 44px 32px;
+    margin-bottom: 32px;
     box-sizing: border-box;
 }
 
@@ -172,7 +173,7 @@ a.top_info_link:hover {
     text-align: center;
     letter-spacing: 0.05em;
     color: #222222;
-    padding: 32px 308px 64px 308px;
+    width: 75%;
     margin: 32px auto 64px;
     opacity: 1;
 }
@@ -333,11 +334,37 @@ a.top_info_link:hover {
     .top_info_link {
         margin-left: 32px;
     }
+
+    .center_catalog {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .product_catalog {
+        margin-bottom: 32px;
+    }
+
+    .text_h4_product,
+    .text_p_product,
+    .product_catalog_link {
+        margin-left: 30px;
+    }
+
+    .text_h3 {
+        margin-top: 64px;
+    }
+
+
+    .what_we_do_p {
+        padding: 0;
+        width: 100%;
+    }
 }
 
 @media (max-width: 667px) {
     .top {
-        min-height: 376px;
+        /* min-height: 376px; */
         padding-bottom: 41px;
         box-sizing: border-box;
     }
@@ -380,6 +407,26 @@ a.top_info_link:hover {
         margin-left: 0px;
         margin-bottom: 41px;
         box-sizing: border-box;
+    }
+
+    .what_we_do_p {
+    }
+
+    .text_h3 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-top: 48px;
+    }
+
+    .center_catalog {
+        padding-top: 32px;
+    }
+
+    .product_catalog {
+        width: 100%;
     }
 
 }
