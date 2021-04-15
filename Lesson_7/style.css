@@ -352,7 +352,7 @@ a.footer_button_link {
     flex-direction: column;
     background-image: url(img/background_contacts.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding-bottom: 48px;
     padding-top: 35px;
 }
@@ -372,6 +372,9 @@ a.footer_button_link {
     text-align: center;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.logo_position {
     margin-top: 16px;
     margin-left: 293px;
     margin-right: 293px;
@@ -456,14 +459,17 @@ a.footer_button_link {
     opacity: 0.8;
     box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
     border-radius: 10px;
+    box-sizing: border-box;
+    width: 428px;
+    border: 1px solid #356EAD;
+}
+
+.text_input_contacts_position {
+    margin-bottom: 32px;
     padding-top: 21px;
     padding-bottom: 21px;
     padding-left: 36px;
     padding-right: 15px;
-    box-sizing: border-box;
-    width: 428px;
-    margin-bottom: 32px;
-    border: 1px solid #356EAD;
 }
 
 .text_input_textarea {
@@ -495,7 +501,7 @@ button.button:hover {
 
 .map_size {
     text-align: center;
-    margin-left: 112px;
+    margin-left: 80px;
     margin-right: 80px;
     margin-top: 96px;
 }
@@ -527,7 +533,6 @@ button.button:hover {
 
     .top_contacts {
         padding-bottom: 0;
-        width: 100vw;
     }
 
     .logo {}
@@ -538,7 +543,7 @@ button.button:hover {
         margin-bottom: 64px;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 0;
+        margin-top: 55px;
         width: 100vw;
     }
 
@@ -550,11 +555,11 @@ button.button:hover {
     .left_content {
         margin-bottom: 64px;
         align-items: center;
-        margin-left: 234px;
-    margin-right: 234px;
+        margin: 0 auto;
+        padding-bottom: 64px;
     }
 
-    .right_content {
+    .right_content_position {
         margin-left: 124px;
         margin-right: 124px;
     }
@@ -651,8 +656,8 @@ button.button:hover {
     }
 
     a.footer_button_link {
-    margin-right: 50px;
-}
+        margin-right: 50px;
+    }
 
     .footer_bottom {
         padding-bottom: 0;
@@ -691,9 +696,11 @@ button.button:hover {
         width: 100vw;
     }
 
+    .content_full {}
+
     .container {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .top {
@@ -856,8 +863,13 @@ button.button:hover {
         margin-top: 32px;
     }
 
+    .bottom_contact_flex {
+        margin-left: 23px;
+    }
+
     .decimal_ol {
         margin-left: 16px;
+        padding-left: 23px;
     }
 
     .copyrait {
@@ -870,4 +882,44 @@ button.button:hover {
 
     /* Для страницы контактов */
 
+    .logo_position {
+        margin: 0;
+    }
+
+    .right_content_background_color {
+        background: #E5E5E5;
+    }
+
+    .left_content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .right_content_position {
+        margin: 0;
+        padding: 0;
+    }
+
+    .right_content_color {
+        background-color: white;
+        width: 90vw;
+    }
+
+    .form_position {
+        width: 100vw;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .text_input_contacts_position {
+        width: 75vw;
+    }
+
+    .button.button {
+        padding: 15px 55px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 46px;
+        min-width: 157px;
+    }
 }
