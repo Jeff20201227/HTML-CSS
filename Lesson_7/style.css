@@ -882,8 +882,17 @@ button.button:hover {
 
     /* Для страницы контактов */
 
+.top_contacts {
+    width: 100vw;
+}
+
     .logo_position {
         margin: 0;
+        padding-bottom: 55px;
+    }
+
+    .text_p_positions {
+        margin-left: 40px;
     }
 
     .right_content_background_color {
@@ -906,7 +915,7 @@ button.button:hover {
     }
 
     .form_position {
-        width: 100vw;
+        width: 90vw;
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -921,5 +930,16 @@ button.button:hover {
         margin-right: 35px;
         margin-bottom: 46px;
         min-width: 157px;
+    }
+
+    .map_size {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 96px;
+    }
+
+    .map_size iframe {
+        width: 90%;
     }
 }
