@@ -1,0 +1,54 @@
+.bg-light {
+    background-image: linear-gradient(to top, #6500ff, #7115ff);
+}
+
+.wrapper {
+    min-height: 90vh;
+    background-image: linear-gradient(to bottom, #6500ff, #7115ff);
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    color: magenta !important;
+}
+
+.nav-link.active {
+    color: magenta !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: magenta !important;
+}
+
+.btn {
+    background-color: aliceblue;
+}
+
+.image-size {
+    min-width: 350px;
+    height: 650px;
+}
+
+.footer {
+    background-image: linear-gradient(to top, #6000ff, #7015ff);
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    color: white;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyrait {
+    align-self: center;
+}

@@ -1,0 +1,94 @@
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      body {
+          font-size: small;
+          font-family: Verdana, Helvetica, Arial, sans-serif;
+          line-height: 1.6em;
+      }
+
+      .wrapper {
+          display: flex;
+          min-height: 80vh;
+          flex-direction: column;
+          padding-top: 0px;
+          padding-bottom: 100px;
+          background-color: darkgrey;
+      }
+
+      h1,
+      h2 {
+          color: #ffffff;
+          align-self: center;
+          padding-top: 25px;
+          padding-bottom: 25px;
+      }
+
+      h1 {
+          font-size: 150%;
+      }
+
+      h2 {
+          font-size: 130%;
+      }
+
+      p {
+          color: #ffffff;
+      }
+
+      .text_p {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 20px;
+      }
+
+      .text_icon {
+          margin-left: 20px;
+          align-self: center;
+          margin-top: 25vh;
+      }
+
+      a {
+          color: #ffffff;
+      }
+
+      footer {
+          background-color: springgreen;
+          padding-top: 15px;
+          padding-left: 50vw;
+          padding-bottom: 15px;
+      }
+
+      .text_footer {
+          padding-bottom: 20px;
+          padding-top: 60px;
+      }
+
+      #StarBuzz {
+          color: red;
+      }
+
+      #Head_First {
+          color: white;
+      }
+
+      #iPod {
+          color: yellow;
+      }
+
+      #Tony {
+          color: orange;
+      }
+
+      a img {
+          border: none;
+          background-color: green;
+          width: 40px;
+          margin-right: 100px;
+      }
+
+      a img:hover {
+          background-color: #fff;
+      }
